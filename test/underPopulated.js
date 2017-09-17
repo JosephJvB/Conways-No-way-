@@ -18,7 +18,7 @@ test('cell dies if underPopulated', (t) => {
     var expected = expecteds[input]
     var actual = underPopulated(input)
 
-    var message = 'cell count ' + input + ' is' +
+    var message = 'cell count ' + input + ' is ' +
     (expected ? 'underpopulated' : 'not underpopulated')
     t.equal(expected, actual, message)
   })

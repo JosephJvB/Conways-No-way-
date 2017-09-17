@@ -18,7 +18,7 @@ test('cell dies if overPopulated', (t) => {
     var expected = expecteds[input]
     var actual = overPopulated(input)
 
-    var message = 'cell count ' + input + ' is' +
+    var message = 'cell count ' + input + ' is ' +
     (expected ? 'overpopulated' : 'not overpopulated')
     t.equal(actual, expected, message)
   })
