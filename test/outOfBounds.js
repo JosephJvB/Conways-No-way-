@@ -14,6 +14,7 @@ test('cell out of bounds', (t) => {
   }
 
   Object.keys(expecteds).forEach(function (input) {
+
     var expected = expecteds[input]
     var actual = outOfBounds(input, testArray)
 
